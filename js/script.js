@@ -30,7 +30,7 @@ class Audio_player{
         this.name_channel=[]
         this.name_channel[0]="الشيخ المنشاوي"
         this.name_channel[1]="الشيخ المعيقلي"
-        this.name_channel[2]="الشيخ المحيسني"
+        this.name_channel[2]="الشيخ مشاري العفاسي"
         this.name_channel[3]="الشيخ فارس عباد"
         this.name_channel[4]="الشيخ السديس"
         this.name_channel[5]="الشيخ عبد الباسط"
@@ -40,15 +40,15 @@ class Audio_player{
         // sources
         
         this.source_channel=[]
-        this.source_channel[0]="http://live.mp3quran.net:9978/;"
-        this.source_channel[1]="http://live.mp3quran.net:9996/;"
-        this.source_channel[2]="http://live.mp3quran.net:9862/;"
-        this.source_channel[3]="http://live.mp3quran.net:9972/;"
-        this.source_channel[4]="http://live.mp3quran.net:9988/;"
-        this.source_channel[5]="http://live.mp3quran.net:9980/;"
-        this.source_channel[6]="http://live.mp3quran.net:9976/;"
-        this.source_channel[7]="http://live.mp3quran.net:9986/;"
-        this.source_channel[8]="http://live.mp3quran.net:9990/;"
+        this.source_channel[0]="https://qurango.net/radio/mohammed_siddiq_alminshawi.mp3"
+        this.source_channel[1]="https://qurango.net/radio/maher_al_meaqli.mp3"
+        this.source_channel[2]="https://qurango.net/radio/mishary_alafasi.mp3"
+        this.source_channel[3]="https://qurango.net/radio/fares_abbad.mp3"
+        this.source_channel[4]="https://qurango.net/radio/abdulrahman_alsudaes.mp3"
+        this.source_channel[5]="https://qurango.net/radio/abdulbasit_abdulsamad_mojawwad.mp3"
+        this.source_channel[6]="https://qurango.net/radio/saad_alghamdi.mp3"
+        this.source_channel[7]="https://qurango.net/radio/saud_alshuraim.mp3"
+        this.source_channel[8]="https://qurango.net/radio/ahmad_alajmy.mp3"
         this.server=0;
         this.set_sourses()
         document.getElementById("next").addEventListener("click",()=>{
